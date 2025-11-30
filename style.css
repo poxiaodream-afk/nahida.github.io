@@ -1,0 +1,260 @@
+header{
+    background-color: forestgreen;
+}
+.jjj{
+    position: relative;
+    top: 0%;
+    left: 120px;
+    line-height: 160px;
+    background-image: url(img/下载2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 210px;
+    text-indent: -9999px;
+    border-radius: 50%;
+    font-size: 1px;
+}
+.jieshao{
+    background-color: antiquewhite;
+    height: 100vh;
+    color: white;
+    background-image:url(img/photo_2025-11-29_10-30-03.jpg);
+    background-repeat: repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+*{
+    padding: 0%;
+    margin: 0%;
+}
+main h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+}
+main h2{
+    color: blue;
+    font-size: 45px;
+    margin: 35px 0;
+}
+header p{
+    position: absolute;
+    right: 4px;
+    top: 0;
+    line-height: 160px;
+    letter-spacing: 20px;
+    font-size: 15px;
+}
+.gaikuo{
+    background-image: url(img/photo_2025-11-29_10-30-05.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: rgb(210, 0, 252);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    letter-spacing: 10px;
+    background-color: aquamarine;
+}
+.information{
+    height: 100vh;
+    display: flex;
+    background-color: aquamarine;
+}
+footer {
+    background-color: black;
+    color: azure;
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+}
+.infor2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    line-height: 100px;
+    
+}
+.information .ul1{
+    font-size: 50px;
+    position: relative;
+    left: 50px;
+    top: 90px;
+}
+.information .ul2{
+    font-size: 20px;
+    position: relative;
+    left: 210px;
+}
+.information .ul3{
+    font-size: 20px;
+    position: relative;
+    left: 280px;
+}
+.information .ul4{
+    font-size: 20px;
+    position: relative;
+    left: 350px;
+}
+.information .ul5{
+    font-size: 20px;
+    position: relative;
+    left: 500px;
+}
+.information .ul6{
+    font-size: 20px;
+    position: relative;
+    left: 362px;
+}
+.information .ul7{
+    font-size: 20px;
+    position: relative;
+    left: 280px;
+}
+.information .ul8{
+    font-size: 20px;
+    position: relative;
+    left: 210px;
+}
+.appearence{
+    background-image: url(img/photo_2025-11-29_10-30-02.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    font-size: 27px;
+    color: rgb(75, 1, 248);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    line-height: 40px;
+}
+.soul{
+    background-image: url(img/photo_2025-11-29_10-30-00.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    color: chartreuse;
+    display: flex;
+    flex-direction: column;
+    justify-content: center ;
+    padding: 100px;
+    font-size: 20px;
+}
+.first{
+    font-size: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center ;
+    align-items: center;
+}
+.pingjia{
+    background-image: url(img/photo_2025-11-29_10-30-06.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    color: blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center ;
+    align-items: center;
+    font-size: 40px;
+    backdrop-filter: blur(2px);
+}
+@keyframes appear {
+    from{
+        opacity: 0;
+        scale:0.5;
+    }
+    to {
+        opacity: 1;
+        scale:1;
+    }
+}
+.block{
+    animation: appear ease-in-out;
+    animation-timeline: view();
+    animation-range: entry 0 cover 40%;
+}
+@keyframes transelate{
+    from{
+        opacity: 0;
+        transform: translateX(-999px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+.blockk{
+    animation: transelate ease-in-out;
+    animation-timeline: view();
+    animation-range: entry 0 cover 40%;
+}
+@keyframes transelate2{
+    from{
+        opacity: 0;
+        transform: translateX(999px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+.blockkk{
+    animation: transelate2 ease-in-out;
+    animation-timeline: view();
+    animation-range: entry 0 cover 40%;
+}
+.appearence .blockkk{
+    font-size: 50px;
+}
+@keyframes spin{
+    from{
+        opacity: 0;
+        transform: translateX(999px) translateY(-999px) translateZ(-999px); 
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0px) translateY(0px) translateZ(0px);
+    }
+}
+.spin{
+    animation: spin ease-in-out;
+    animation-timeline: view();
+    animation-range: entry 0 cover 40%;
+}
+.last{
+    animation: spin ease-in-out;
+    animation-timeline: view();
+    animation-range: entry 0 cover 40%;
+}
+@keyframes spinn{
+    from{
+
+    }
+    to{
+        transform: rotate(360deg);
+        border-radius: 50%;
+    }
+}
+.jjj{
+    animation: spinn ease-in-out;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+}
